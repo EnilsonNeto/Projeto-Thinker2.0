@@ -1,7 +1,7 @@
 # Thinker2.0 Landing Page
 
 ## <a href="https://enilsonneto.github.io/Projeto-Thinker2.0/" target="_blank">LINK DO PROJETO</a>
-## <a><img src="https://github.com/EnilsonNeto/Projeto-Thinker2.0/blob/main/media/Apresenta%C3%A7%C3%A3o.gif?raw=true"></a> 
+## <a href="https://enilsonneto.github.io/Projeto-Thinker2.0/"><img src="https://github.com/EnilsonNeto/Projeto-Thinker2.0/blob/main/media/Apresenta%C3%A7%C3%A3o.gif?raw=true"></a> 
 
 ---
 
