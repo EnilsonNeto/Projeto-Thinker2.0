@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=JetBrains+Mono&family=Karma&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(258.33deg, #410094 3%, #9458E0 91.22%);
+    font-size: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color: black;
+}
+
+
+
+.logo-name {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.logo-nav {
+    display: flex;
+    gap: 80px;
+}
+
+.logo-name:hover {
+    color: #a672eb;
+    transition: 0.5s;
+}
+
+.logo-lista {
+    color: white;
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-lista::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #9458E0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.logo-lista:hover::after{
+    width: 100%;
+}
+
+.logo-button {
+    width: 84px;
+    height: 30px;
+    
+    border-radius: 48px;
+    border: 1px solid black;
+    
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Karma', serif;
+    color: white;
+    cursor: pointer;
+    background-color: #9458E0;
+}
+
+.logo-button:hover {
+    transform: translate(-2px, -2px);
+    transition: 0.4s;
+    background-color: rgb(238, 238, 238);
+    color: #410094;
+    font-weight: 600;
+}
+
+.new-main {
+    border-top: 1px solid white;
+}
+
+.new-main-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-main-section1-show-namebot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 40px;
+
+    letter-spacing: 4px;
+}
+
+.new-main-section1-show-image {
+    width: 28%;
+    margin: auto;
+    display: inline-block;
+}
+
+.new-main-section1-show-txt1 {
+    display: inline-block;
+    justify-content: left;
+    float: left;
+    text-align:center;
+    width: 36%;
+    margin-top: 10%;
+
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+}
+
+.new-main-section1-show-txt2 {
+    display: inline-block;
+    justify-content: left;
+    float: right;
+    text-align:center;
+    width: 36%;
+    margin-top: 10%;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+}
+
+.new-main-section2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.new-main-start{
+    border-top: 1px solid white;
+    width: 30%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-main-section2-show {
+    color: white;
+    padding-top: 50px;
+    letter-spacing: 3px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.new-main-section2-show-image {
+    display: inline-block;
+    /* margin: auto; */
+    width: 28%;
+    margin-right: 33%;
+}
+
+.new-main-section2-txt1 {
+display: inline-block;
+float: left;
+justify-content: left;
+text-align: center;
+font-size: 18px;
+color: white;
+/* height: 18%; */
+/* margin-left: 50px; */
+border: 1px white solid;
+width: 30%;
+margin-top: 130px;
+margin-left: 40px;
+font-family: 'JetBrains Mono', monospace;
+background-color: black;
+}
+
+.new-main-section2-show-txt2 {
+    display: inline-block;
+    float: right;
+    /* justify-content: left; */
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    /* height: 18%; */
+    /* margin-left: 10px; */
+    border: 1px white solid;
+    background-color: black;
+    width: 32%;
+    margin-top: -250px;
+    margin-right: 35px;
+    font-family: 'JetBrains Mono', monospace;
+    }
+    
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer-page {
+    border-top: white 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 15px;
+    
+}
+
+.footer-page-img1 {
+    display: flex;
+    margin:auto;
+    width: 15%;
+    
+}
+.footer-page-img2 {
+    width: 15%;
+    margin: auto;
+    display: flex;
+}

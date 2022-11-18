@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=JetBrains+Mono&family=Karma&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(258.33deg, #410094 3%, #9458E0 91.22%);
+    font-size: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color: black;
+}
+
+
+
+.logo-name {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.logo-nav {
+    display: flex;
+    gap: 80px;
+}
+
+.logo-name:hover {
+    color: #a672eb;
+    transition: 0.5s;
+}
+
+.logo-lista {
+    color: white;
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-lista::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #9458E0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.logo-lista:hover::after{
+    width: 100%;
+}
+
+
+.form-login {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-login-all {
+    border-top: 1px white solid;
+    width: 100%;
+}
+
+.form-login-robot {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    width: 20%;
+    left: 10%;
+    margin-top: -20px;
+    margin-bottom: -100px;
+}
+
+.form-login-start {
+    background: linear-gradient(67.99deg, rgba(33, 13, 45, 0.6) 9.16%, rgba(163, 70, 220, 0.6) 80.49%);
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+
+    width: 30%;
+    height: 360px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.form-login-title {
+    margin-top: -20px;
+    padding: 20px;
+    padding-top: -40px;
+
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    
+}
+
+.form-login-email{
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+
+    padding-bottom: 2px;
+    
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.form-login-input-email {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+
+    width: 100%;
+    height: 40px;
+
+    padding-left: 20px;
+}
+
+.form-login-senha{
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+
+    padding-bottom: 2px;
+    padding-top: 8px;
+
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.form-login-input-senha{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+
+    width: 100%;
+    height: 40px;
+
+    padding-left: 20px;
+}
+
+.form-login-start-others {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+.form-login-start-others-checkbox {
+    cursor: pointer;
+    width: 8%;
+    margin-right: 3px;
+}
+.testing {
+    display: flex;
+    
+    flex-direction: row;
+}
+
+.form-login-start-others-checkbox-txt1{
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.form-login-start-others-link {
+    display: flex;
+    padding-left: 25px;
+    margin-left: 15px;
+    color: black;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.form-login-start-button{
+    display: flex;
+}
+
+.form-login-start-button-action{
+    width: 120px;
+    height: 58px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+    border-radius: 7px;
+    border: none;
+
+    background: #3e058a;
+    color: white;
+
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    
+    cursor: pointer;
+}
+
+.form-login-start-button-action:hover{
+    transform: translate(-2px , -2px);
+    background-color: black;
+    transition: 0.5s;
+}

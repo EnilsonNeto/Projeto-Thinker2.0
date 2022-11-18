@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=JetBrains+Mono&family=Karma&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(258.33deg, #410094 3%, #9458E0 91.22%);
+}
+
+.top-pag {
+    border-top: white 1px solid;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color: black;
+}
+
+
+
+.logo-name {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    cursor: pointer;
+}
+
+.img-robot-source {
+    display: flex;
+    justify-content: left;
+    width: 20%;
+    margin-top: 50px;
+    padding-bottom: -15px;
+
+}
+
+.logo-nav {
+    display: flex;
+    gap: 80px;
+}
+
+.logo-name:hover {
+    color: #a672eb;
+    transition: 0.5s;
+}
+
+.logo-lista {
+    color: white;
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-lista::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #9458E0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.logo-lista:hover::after{
+    width: 100%;
+}
+
+.topo {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+}
+
+.title01 {
+    display: flex;
+    margin-bottom: -100px;
+    margin-top: -80px;
+    margin-right: 220px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title01 h1 {
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 38px;
+
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.simple {
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* margin-top: 45px;
+    margin-bottom: -55px; */
+    font-size: 40px;
+
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.simple1 {
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+                
+
+.simple2 {
+    /* margin-left: 340px; */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* margin-top: 45px; */
+    /* margin-bottom: -55px; */
+    font-size: 40px;
+
+
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+                  
+
+.simple3 {
+    /* margin-left: 310px; */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* margin-top: 45px; */
+    /* margin-bottom: -55px; */
+    font-size: 40px;
+
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+                
+
+.image04 {
+    background-repeat: no-repeat;
+    /* margin-left: 180px; */
+    /* margin-top: 50px; */
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 80%;
+    height: 447px;
+    /* padding-top: -15px; */
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+p { 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    width: 1125px;
+    height: 300px;
+    margin-left: 131px;
+ background-color: #5b2b99; 
+    border-radius: 4px;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+form input[type=submit]{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #250d44;
+    color: white; 
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 550px;
+
+}
+
+form input:hover {
+    background-color: black; 
+    transition: 0.8s;
+}
